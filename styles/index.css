@@ -1,0 +1,96 @@
+body {
+    background-color: #9DBEBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-box {
+    width:100%; 
+    max-width: 954px;
+    min-height: 594px;
+    margin-top: 153px;
+    margin-left: 243px;
+    background-color: #BE0909; 
+    display: flex;   
+}
+
+.form {
+    font-family: "Roboto", sans-serif;
+    color: #FEFFFF;
+    font-size: 18px;
+    font-weight: thin;
+    line-height: auto;
+    background-color: transparent;
+}
+
+.text-box {
+    width: 100%;
+    max-width: 400px;
+    min-height: 72px;
+    margin-top: 64px;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-box {
+    width: 100%;
+    max-width: 160px;
+    min-height: 72px;
+    margin-top: 22px;
+    margin-left: 65px;
+}
+
+.topic-box {
+    width: 100%;
+    max-width: 213px;
+    min-height: 72px;
+    margin-top: 31px;
+    margin-left: 65px;
+}
+
+
+.input-field {
+    background: transparent;
+    width: 100%;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    color: #FEFFFF;
+    font-size: 18px;
+    font-weight: thin;
+    line-height: auto;
+    }
+
+.button {
+    width: 202px;
+    height: 48px;
+    margin-top: 56px;
+    margin-left: 164px;
+    background-color: #468189;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+.yellow-box {
+    width: 100%;
+    max-width: 345px;
+    min-height: 594px;
+    margin-top: 0px;
+    margin-left: 609px;
+    background-color: #ffb039;
+    z-index: 1;
+    position: absolute;
+
+}
+
+img {
+    max-width: 663px;
+    min-height: 603px;
+    margin-top: 52px;
+    margin-left: 342px;
+    background-color: transparent;
+    z-index: 2;
+    position: absolute;
+
+}
