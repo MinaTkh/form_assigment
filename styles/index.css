@@ -50,6 +50,16 @@ body {
     margin-left: 65px;
 }
 
+.message-box {
+    width: 100%;
+    max-width: 400px;
+    min-height: 72px;
+    margin-top: 21px;
+    margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .input-field {
     background: transparent;
@@ -62,12 +72,33 @@ body {
     line-height: auto;
     }
 
+.input-field:hover {
+    background-color:#ffb039 ;
+    width: 100%;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    color: #FEFFFF;
+    font-size: 18px;
+    font-weight: thin;
+    line-height: auto;
+}
+
 .button {
     width: 202px;
     height: 48px;
     margin-top: 56px;
     margin-left: 164px;
     background-color: #468189;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    width: 210px;
+    height: 60px;
+    margin-top: 56px;
+    margin-left: 164px;
+    background-color:#361d8e;
     border-radius: 40px;
     color: #FFFFFF;
 }
